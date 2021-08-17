@@ -11,7 +11,7 @@ import (
 func main(){
 	app := iris.New()
 
-	app.HandleDir("www", "./www")
+	app.HandleDir("/", "./www")
 
 	app.Use(middleware.LogMiddleware)
 
