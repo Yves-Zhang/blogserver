@@ -2,4 +2,7 @@ module yyds
 
 go 1.16
 
-require github.com/kataras/iris/v12 v12.2.0-alpha2.0.20210717090056-b2cc3a287149 // indirect
+require (
+	github.com/aymerick/raymond v2.0.3-0.20180322193309-b565731e1464+incompatible // indirect
+	github.com/kataras/iris/v12 v12.2.0-alpha8
+)
